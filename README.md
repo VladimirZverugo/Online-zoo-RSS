@@ -1,5 +1,5 @@
-# Правки index.HTML
+# Online-zoo
 
-1. Заменить 156 строчка (картинка гориллы больше по размерам, чем остальные животные)
-2. Сделать поп-ап для блока `WORKS`
-3. Добавить SVG элементы для блока `ISLAND`
+https://www.figma.com/file/vzrwoqf0kSG1uOify8BRBR/online-zoo
+
+Site is in progress.
