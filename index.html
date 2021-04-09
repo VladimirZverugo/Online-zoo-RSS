@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+
+<head>
+    <meta charset="UTF-8">
+    <title>OnlineZoo</title>
+    <link rel="stylesheet" href="pages/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+
+    <header class="header">
+        <div class="container">
+            <div class="header__wrapper">
+                <div class="header__left">
+                    <a href="index.html"><img src="assets/Logo-large.svg" alt="logo"></a>
+                    <nav class="nav">
+                        <a class="nav__link__active" href="#">ABOUT</a>
+                        <a class="nav__link" href="./pages/map.html">MAP</a>
+                        <a class="nav__link" href="#">ZOOS</a>
+                        <a class="nav__link" href="#">CONTACT US</a>
+                        <a class="nav__link"
+                            href="https://www.figma.com/file/vzrwoqf0kSG1uOify8BRBR/online-zoo">DESIGN</a>
+                    </nav>
+                </div>
+                <div class="header__right">
+                    <img src="assets/Search.svg" alt="search">
+                    <a class="nav__link nav__link--log" href="#">LOG IN</a>
+                    <a class="nav__link nav__link--sign" href="#">SIGN UP</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- / HEADER -->
+
+    <!--SignIn Popup-->
+
+    <!-- INTRO -->
+
+    <section class="intro">
+        <div class="container">
+            <div class="intro__wrapper">
+                <div class="intro__left">
+                    <h2 class="intro__title">Watch your favourite
+                        <br><strong>animals online</strong></br>
+                    </h2>
+                    <article class="intro__subtitle">Observe different animals from around the world online in live
+                        time.
+                        Help vulunteers to take a good care of animals, donate to your favorite ones.</article>
+                    <button>Watch now</button>
+                </div>
+                <div class="intro__right">
+                    <iframe width="750" height="590" src="https://www.youtube.com/embed/D0eqnda8dOk" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- / INTRO -->
+
+    <!-- WORKS -->
+
+    <section class="works">
+        <div class="container">
+            <h3 class="works__title">HOW IT WORKS</h3>
+            <div class="works__wrapper">
+                <div class="works__circle">
+                    <img class="circle" src="assets/Circle1.png" width="145px" height="145px" onclick="popup()">
+                    <p>Keep an eye on your favourite animals online</p>
+                    <p class="pop" id="myPopup">asdcffffffffffffffffsdafasdasd</p>
+                </div>
+                <div class="works__circle">
+                    <img class="circle" src="assets/Circle2.png" width="145px" height="145px">
+                    <p> Become a part of the communtity</p>
+                </div>
+                <div class="works__circle">
+                    <img class="circle" src="assets/Circle3.png" width="145px" height="145px">
+                    <p> Support animals with the donations </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- / WORKS -->
+
+
+    <!-- ISLAND -->
+
+    <section class="island">
+        <div class="container">
+            <div class="island__wrapper">
+                <!--Active-->
+                <img src="assets/Bamboo.svg" class="bamboo1">
+                <img src="assets/tree_left.png" class="tree_left_h">
+                <img src="assets/tree_left.png" class="tree_left_l">
+                <img src="assets/trunk1.svg" class="tree_left_t">
+
+                <img src="assets/Panda_head.svg" class="panda_head">
+                <img src="assets/pandas__body.svg" class="panda_body">
+                <img src="assets/Bamboo1.svg" class="bamboo2">
+
+                <img src="assets/tree_left.png" class="tree_center_h" width="90px" height="90px">
+                <img src="assets/tree_left.png" class="tree_center_l" width="90px" height="90px">
+                <img src="assets/trunk3.svg" class="tree_center_t">
+
+                <img src="assets/tree_left.png" class="tree_right_h" width="130px" height="130px">
+                <img src="assets/tree_left.png" class="tree_right_l" width="130px" height="130px">
+                <img src="assets/trunk2.svg" class="tree_right_t">
+
+                <!--Passive-->
+
+
+            </div>
+        </div>
+    </section>
+
+    <!-- / ISLAND -->
+
+    <!-- PETS IN ZOO -->
+
+    <section class="pets">
+        <div class="container">
+            <div class="pets__title__wrapper">
+                <h3 class="pets__title">PETS IN ZOO</h3>
+                <button class="pets__button" type="button"><img src="assets/btn__choose.svg" alt="#">CHOOSE YOR
+                    FAVORITE</button>
+            </div>
+            <div class="pets__block__wrapper">
+                <div class="pets__block">
+                    <img class="pets__block__img" src="assets/articles__panda.png">
+                    <div class="pets__block__top">
+                        <div class="pets__block__top__left">
+                            <h4 class="pets__block__title">Panda</h4>
+                            <p class="pets__block__subtitle">Shenshuping Gengda Panda Center</p>
+                        </div>
+                        <a class="pets__block__nav" href="#"><img src="assets/TV.svg"></a>
+                    </div>
+                </div>
+                <div class="pets__block">
+                    <img class="pets__block__img" src="assets/articles__eagle.png">
+                    <div class="pets__block__top">
+                        <div class="pets__block__top__left">
+                            <h4 class="pets__block__title">Eagle</h4>
+                            <p class="pets__block__subtitle">Shenshuping Gengda Panda Center</p>
+                        </div>
+                        <a class="pets__block__nav" href="#"><img src="assets/TV.svg"></a>
+                    </div>
+                </div>
+                <div class="pets__block">
+                    <img class="pets__block__img" src="assets/articles__gorillas.png">
+                    <div class="pets__block__top">
+                        <div class="pets__block__top__left">
+                            <h4 class="pets__block__title">Gorillas</h4>
+                            <p class="pets__block__subtitle">Shenshuping Gengda Panda Center</p>
+                        </div>
+                        <a class="pets__block__nav" href="#"><img src="assets/TV.svg"></a>
+                    </div>
+                </div>
+                <div class="pets__block">
+                    <img class="pets__block__img" src="assets/articles__aligators.png">
+                    <div class="pets__block__top">
+                        <div class="pets__block__top__left">
+                            <h4 class="pets__block__title">Aligators</h4>
+                            <p class="pets__block__subtitle">Shenshuping Gengda Panda Center</p>
+                        </div>
+                        <a class="pets__block__nav" href="#"><img src="assets/TV.svg"></a>
+                    </div>
+                </div>
+                <div class="pets__block">
+                    <img class="pets__block__img" src="assets/articles__ekephants.png">
+                    <div class="pets__block__top">
+                        <div class="pets__block__top__left">
+                            <h4 class="pets__block__title">Elephants</h4>
+                            <p class="pets__block__subtitle">Shenshuping Gengda Panda Center</p>
+                        </div>
+                        <a class="pets__block__nav" href="#"><img src="assets/TV.svg"></a>
+                    </div>
+                </div>
+                <div class="pets__block">
+                    <img class="pets__block__img" src="assets/articles__lemurs.png">
+                    <div class="pets__block__top">
+                        <div class="pets__block__top__left">
+                            <h4 class="pets__block__title">Lemurs</h4>
+                            <p class="pets__block__subtitle">Shenshuping Gengda Panda Center</p>
+                        </div>
+                        <a class="pets__block__nav" href="#"><img src="assets/TV.svg"></a>
+                    </div>
+                </div>
+            </div>
+            <img class="pets__penguin" src="assets/Penguin.svg" alt="#">
+            <div class="pets__btn__wrapper">
+                <a><img class="pets__btn pets__btn--right" src="assets/pets__btn__right.svg" alt="right"></a><br>
+                <a><img class="pets__btn pets__btn--left" src="assets/pets__btn__left.svg" alt="left"></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- / PETS IN ZOO -->
+
+    <!-- PAY AND FEED -->
+
+    <section class="pay">
+        <div class="container">
+            <div class="pay__title__wrapper">
+                <h3 class="pay__title">PAY AND FEED</h3>
+                <button class="pay__btn">DONATE TO VALUTEERS</button>
+            </div>
+            <div class="pay__circles__wrapper">
+                <div class="pay__circle__block">
+                    <div class="pay__circle__wrapper">
+                        <img class="pay__circle" src="assets/hand__money.svg" alt="takeMoney">
+                    </div>
+                    <p>You donate to your favourite animals</p>
+                </div>
+                <div class="pay__circle__block">
+                    <div class="pay__circle__wrapper">
+                        <img class="pay__circle" src="assets/hand__apple.svg" alt="takeMoney">
+                    </div>
+                    <p>Zoo Keepers feed animals with their favourite food</p>
+                </div>
+                <div class="pay__circle__block">
+                    <div class="pay__circle__wrapper">
+                        <img class="pay__circle" src="assets/Icons__monkey.svg" alt="takeMoney">
+                    </div>
+                    <p>Animals are healthy and happy</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- / PAY AND FEED -->
+
+    <!-- REVIEW -->
+
+    <section class="review">
+        <div class="container">
+            <div class="review__title__wrapper">
+                <h3 class="pets__title review__title">TESTIMONIALS</h3>
+                <button class="pets__button" type="button"><img src="assets/review__btn__img.svg" alt="#">LEAVE
+                    FEEDBACK</button>
+            </div>
+            <div class="review__block__wrapper">
+                <div class="review__block">
+                    <div class="review__message">
+                        <h4 class="review__title__message">20 December 2020</h4>
+                        <p class="review__comment">Awesome place to observe my favourite aligators at Florida, the
+                            quality of
+                            the video is great. </p>
+                    </div>
+                    <div class="review__avatar__wrapper">
+                        <img class="review__avatar" src="assets/Adam.svg" alt="#">
+                        <p class="review__avatar__subtitle">Adam, Spain</p>
+                    </div>
+                </div>
+                <div class="review__block">
+                    <div class="review__message">
+                        <h4 class="review__title__message">20 December 2020</h4>
+                        <p class="review__comment">Awesome place to observe my favourite aligators at Florida, the
+                            quality of
+                            the video is great. </p>
+                    </div>
+                    <div class="review__avatar__wrapper">
+                        <img class="review__avatar" src="assets/Chris.svg" alt="#">
+                        <p class="review__avatar__subtitle">Chris, Australia</p>
+                    </div>
+                </div>
+                <div class="review__block">
+                    <div class="review__message">
+                        <h4 class="review__title__message">20 December 2020</h4>
+                        <p class="review__comment">Awesome place to observe my favourite aligators at Florida, the
+                            quality of
+                            the video is great. </p>
+                    </div>
+                    <div class="review__avatar__wrapper">
+                        <img class="review__avatar" src="assets/Amely.svg" alt="#">
+                        <p class="review__avatar__subtitle">Amaly, USA</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- / REVIEW -->
+
+    <!-- LOOK AT THIS -->
+
+    <div class="look">
+        <div class="container">
+            <h3 class="pets__title look__title">Look at this beautiful animals</h3>
+            <div class="look__slider__wrapper">
+                <div class="look__slider">
+                    <div class="look__slider__line">
+                        <div class="look__slider__block">
+                            <img class="look__img" src="assets/carusel__panda.png" alt="#">
+                            <p>Pandas</p>
+                        </div>
+                        <div class="look__slider__block">
+                            <img class="look__img" src="assets/carusel__gorillas.png" alt="#">
+                            <p>Gorillas</p>
+                        </div>
+                        <div class="look__slider__block">
+                            <img class="look__img" src="assets/carusel__eagles.png" alt="#">
+                            <p>Eagles</p>
+                        </div>
+                        <div class="look__slider__block">
+                            <img class="look__img" src="assets/carusel__aligators.png" alt="#">
+                            <p>Alligators</p>
+                        </div>
+                        <div class="look__slider__block">
+                            <img class="look__img" src="assets/carusel__elephans.png" alt="#">
+                            <p>Elephants</p>
+                        </div>
+                        <div class="look__slider__block">
+                            <img class="look__img" src="assets/carusel__lemurs.png" alt="#">
+                            <p>Lemurs</p>
+                        </div>
+                        <div class="look__slider__block">
+                            <img class="look__img" src="assets/carusel__panda.png" alt="#">
+                            <p>Pandas</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="look__btn__wrapper">
+                    <a class="look__btn__right"><img src="assets/look__btn__right.svg" alt="right"></a>
+                    <a class="look__btn__left"><img src="assets/look__btn__left.svg" alt="left"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- / LOOK AT THIS -->
+
+    <!-- FOOTER -->
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__wrapper">
+                <div class="footer__left">
+                    <img src="assets/Logo-large.svg" alt="logo">
+                    <nav class="nav">
+                        <a class="nav__link" href="#">ABOUT</a>
+                        <a class="nav__link" href="./pages/map.html">MAP</a>
+                        <a class="nav__link" href="#">ZOOS</a>
+                        <a class="nav__link" href="#">CONTACT US</a>
+                        <a class="nav__link"
+                            href="https://www.figma.com/file/vzrwoqf0kSG1uOify8BRBR/online-zoo">DESIGN</a>
+                    </nav>
+                </div>
+                <div class="footer__right">
+                    <p class="footer__right__title">DESIGN BY LEMESHKO KATERYNA</p>
+                    <p class="footer__right__subtitle">&copy;RSSCHOOL AND &copy;YEM DIGITAL 2021</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- /FOOTER -->
+
+    <!--SCRIPT-->
+    <script src="add.js"></script>
+    <!-- / SCRIPT-->
+</body>
+
+</html>
